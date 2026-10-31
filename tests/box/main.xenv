@@ -1,0 +1,837 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Data type="env">
+    <Section name="TYPE">
+        <Key name="PROJECT_TYPE">
+            scflow
+            <!--Project_Type-->
+        </Key>
+    </Section>
+    <Section name="CAD">
+        <Key name="CAD_Import_TYPE">
+            0
+            <!--Import CAD format-->
+        </Key>
+        <Key name="CAD_LIBRARY">
+            1
+            <!--Favored CAD library-->
+        </Key>
+        <Key name="USE_STEP_ASSISTANT">
+            true
+            <!--Use STEP Assistant-->
+        </Key>
+        <Key name="DELETE_COLORED_CAD_FACE">
+            true
+            <!--Delete colored CAD face region-->
+        </Key>
+        <Key name="USE_ANCESTRAL_NAME">
+            false
+            <!--Use ancestoral name for unnamed parts/assemblies-->
+        </Key>
+        <Key name="SEPARATE_DUPLICATE_SOLID">
+            false
+            <!--Separate duplicate solid-->
+        </Key>
+        <Key name="IGNORE_CAD_FACE_NAME">
+            true
+            <!--Ignore CAD face name-->
+        </Key>
+        <Key name="SELECT_DKCT_VERSION">
+            false
+            <!--Select Datakit library version-->
+        </Key>
+        <Key name="DKCT_VERSION">
+            2025
+            <!--Favored Datakit library version-->
+        </Key>
+    </Section>
+    <Section name="UNIT">
+        <Key name="MODEL_LENGTH_UNIT">
+            m
+            <!--Model_unit_of_length-->
+        </Key>
+        <Key name="DEFAULT_CYCLE_UNIT">
+            cycle
+            <!--Default_unit_of_cycle-->
+        </Key>
+        <Key name="DEFAULT_TIME_UNIT">
+            s
+            <!--Default_unit_of_time-->
+        </Key>
+        <Key name="DEFAULT_STDOUT_TIME_UNIT">
+            s
+            <!--Default_unit_of_standard_output_time-->
+        </Key>
+        <Key name="DEFAULT_TEMPERATURE_UNIT">
+            C
+            <!--Default_unit_of_temperature-->
+        </Key>
+        <Key name="DEFAULT_HEAT_FLUX_UNIT">
+            W/m2
+            <!--Default_unit_of_heat_flux-->
+        </Key>
+        <Key name="DEFAULT_LENGTH_UNIT">
+            m
+            <!--Default_unit_of_length-->
+        </Key>
+        <Key name="DEFAULT_AREA_UNIT">
+            m2
+            <!--Default_unit_of_area-->
+        </Key>
+        <Key name="DEFAULT_COORDX_UNIT">
+            m
+            <!--Default_unit_of_coordinate_x-->
+        </Key>
+        <Key name="DEFAULT_COORDY_UNIT">
+            m
+            <!--Default_unit_of_coordinate_y-->
+        </Key>
+        <Key name="DEFAULT_COORDZ_UNIT">
+            m
+            <!--Default_unit_of_coordinate_z-->
+        </Key>
+        <Key name="DEFAULT_COORD_VALUE_UNIT">
+            m
+            <!--Default_unit_of_coordinate_value-->
+        </Key>
+        <Key name="DEFAULT_AREA_VOLUME_RATIO_UNIT">
+            m2/m3
+            <!--Default_unit_of_area_volume_ratio-->
+        </Key>
+        <Key name="DEFAULT_HEAT_TRANFER_COEFF_UNIT">
+            W/(m2.K)
+            <!--Default_unit_of_heat_transfer_coeff-->
+        </Key>
+        <Key name="DEFAULT_THERMAL_RESISTANCE_UNIT">
+            K.m2/W
+            <!--Default_unit_of_thermal_resistance-->
+        </Key>
+        <Key name="DEFAULT_MASS_UNIT">
+            kg
+            <!--Default_unit_of_mass-->
+        </Key>
+        <Key name="DEFAULT_MASS_FLOW_RATE_UNIT">
+            m3
+            <!--Default_unit_of_mass_flow_rate-->
+        </Key>
+        <Key name="DEFAULT_VOLUME_UNIT">
+            kg/s
+            <!--Default_unit_of_volume-->
+        </Key>
+        <Key name="DEFAULT_VOLUME_FLOW_RATE_UNIT">
+            m3/s
+            <!--Default_unit_of_volume_flow_rate-->
+        </Key>
+        <Key name="DEFAULT_SPEED_UNIT">
+            m/s
+            <!--Default_unit_of_speed-->
+        </Key>
+        <Key name="DEFAULT_ACCELERATION_UNIT">
+            m/s2
+            <!--Default_unit_of_acceleration-->
+        </Key>
+        <Key name="DEFAULT_PRESSURE_UNIT">
+            Pa
+            <!--Default_unit_of_pressure-->
+        </Key>
+        <Key name="DEFAULT_DENSITY_UNIT">
+            kg/m3
+            <!--Default_unit_of_density-->
+        </Key>
+        <Key name="DEFAULT_SPECIFIC_HEAT_UNIT">
+            J/(kg.K)
+            <!--Default_unit_of_specific_heat-->
+        </Key>
+        <Key name="DEFAULT_HEAT_CONDUCTIVITY_UNIT">
+            W/(m.K)
+            <!--Default_unit_of_heat_conductivity-->
+        </Key>
+        <Key name="DEFAULT_VISCOUS_COEFFICIENT_UNIT">
+            Pa.s
+            <!--Default_unit_of_viscous_coefficient-->
+        </Key>
+        <Key name="DEFAULT_THERMAL_EXPANSION_UNIT">
+            1/K
+            <!--Default_unit_of_thermal_expansion-->
+        </Key>
+        <Key name="DEFAULT_ROTATION_SPEED_UNIT">
+            rpm
+            <!--Default_unit_of_rotation_speed-->
+        </Key>
+        <Key name="DEFAULT_ANGLE_UNIT">
+            deg
+            <!--Default_unit_of_angle-->
+        </Key>
+        <Key name="DEFAULT_LATENT_HEAT_UNIT">
+            J/kg
+            <!--Default_unit_of_latent_heat-->
+        </Key>
+        <Key name="DEFAULT_DIFFUSION_COEFFICIENT_UNIT">
+            m2/s
+            <!--Default_unit_of_diffusion_coefficient-->
+        </Key>
+        <Key name="DEFAULT_ELECTRIC_CONDUCITIVY_UNIT">
+            S/m
+            <!--Default_unit_of_electric_conductivity-->
+        </Key>
+        <Key name="DEFAULT_ELECTRIC_POTENTIAL_UNIT">
+            V
+            <!--Default_unit_of_electric_potential-->
+        </Key>
+        <Key name="DEFAULT_ELECTRIC_CURRENT_UNIT">
+            A
+            <!--Default_unit_of_electric_current-->
+        </Key>
+        <Key name="DEFAULT_ELECTRIC_CURRENT_DENSITY_UNIT">
+            A/m2
+            <!--Default_unit_of_electric_current_density-->
+        </Key>
+        <Key name="DEFAULT_MATERIAL_TRANSFER_UNIT">
+            m/s
+            <!--Default_unit_of_material_transfer-->
+        </Key>
+        <Key name="DEFAULT_MATERIAL_ON_FACE_UNIT">
+            kg/m2
+            <!--Default_unit_of_material_on_face-->
+        </Key>
+        <Key name="DEFAULT_MASS_FLUX_UNIT">
+            kg/(m2.s)
+            <!--Default_unit_of_mass_flux-->
+        </Key>
+        <Key name="DEFAULT_TURB_ENERGY_UNIT">
+            m2/s2
+            <!--Default_unit_of_turblence_kinetic_enery-->
+        </Key>
+        <Key name="DEFAULT_TURB_DISP_RATE_UNIT">
+            m2/s3
+            <!--Default_unit_of_turblence_dissipation_rate-->
+        </Key>
+        <Key name="DEFAULT_TURB_OMEGA_UNIT">
+            1/s
+            <!--Default_unit_of_specific_turblence_dissipation_rate-->
+        </Key>
+        <Key name="DEFAULT_TURB_SA_VARIABLE_UNIT">
+            m2/s
+            <!--Default_unit_of_turblence_sa_variable-->
+        </Key>
+        <Key name="DEFAULT_PERCENT_UNIT">
+            %
+            <!--Default_unit_of_percentage-->
+        </Key>
+        <Key name="DEFAULT_FORCE_UNIT">
+            N
+            <!--Default_unit_of_force-->
+        </Key>
+        <Key name="DEFAULT_FORCE_PER_UNIT_VOL_UNIT">
+            N/m3
+            <!--Default_unit_of_force_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_FORCE_PER_UNIT_AREA_UNIT">
+            N/m2
+            <!--Default_unit_of_force_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_HEAT_SOURCE_UNIT">
+            W
+            <!--Default_unit_of_heat_source-->
+        </Key>
+        <Key name="DEFAULT_HEAT_SOURCE_PER_UNIT_VOL_UNIT">
+            W/m3
+            <!--Default_unit_of_heat_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_HEAT_SOURCE_PER_UNIT_AREA_UNIT">
+            W/m2
+            <!--Default_unit_of_heat_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_HEAT_SOURCE_PER_UNIT_MASS_UNIT">
+            W/kg
+            <!--Default_unit_of_heat_source_per_unit_mass-->
+        </Key>
+        <Key name="DEFAULT_TURB_ENERGY_SOURCE_UNIT">
+            kg.m2/s3
+            <!--Default_unit_of_turbulence_energy_source-->
+        </Key>
+        <Key name="DEFAULT_TURB_ENERGY_SOURCE_PER_UNIT_VOL_UNIT">
+            kg/(m.s3)
+            <!--Default_unit_of_turbulence_energy_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_TURB_ENERGY_SOURCE_PER_UNIT_AREA_UNIT">
+            kg/s3
+            <!--Default_unit_of_turbulence_energy_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_TURB_SA_VARIABLE_SOURCE_UNIT">
+            kg.m2/s2
+            <!--Default_unit_of_turbulence_SAVariable_source-->
+        </Key>
+        <Key name="DEFAULT_TURB_SA_VARIABLE_SOURCE_PER_UNIT_VOL_UNIT">
+            kg/(m.s2)
+            <!--Default_unit_of_turbulence_sa_variable_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_TURB_SA_VARIABLE_SOURCE_PER_UNIT_AREA_UNIT">
+            kg/s2
+            <!--Default_unit_of_turbulence_sa_variable_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_TURB_DISP_RATE_SOURCE_UNIT">
+            kg.m2/s4
+            <!--Default_unit_of_turbulence_dissipation_rate_source-->
+        </Key>
+        <Key name="DEFAULT_TURB_DISP_RATE_SOURCE_PER_UNIT_VOL_UNIT">
+            kg/(m.s4)
+            <!--Default_unit_of_turbulence_dissipation_rate_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_TURB_DISP_RATE_SOURCE_PER_UNIT_AREA_UNIT">
+            kg/s4
+            <!--Default_unit_of_turbulence_dissipation_rate_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_TURB_OMEGA_SOURCE_UNIT">
+            kg/s2
+            <!--Default_unit_of_specific_turbulence_dissipation_rate_source-->
+        </Key>
+        <Key name="DEFAULT_TURB_OMEGA_SOURCE_PER_UNIT_VOL_UNIT">
+            kg/(m3.s2)
+            <!--Default_unit_of_specific_turbulence_dissipation_rate_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_TURB_OMEGA_SOURCE_PER_UNIT_AREA_UNIT">
+            kg/(m2.s2)
+            <!--Default_unit_of_specific_turbulence_dissipation_rate_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_NON_DIMENSION_SOURCE_UNIT">
+            1/s
+            <!--Default_unit_of_non_dimension_source-->
+        </Key>
+        <Key name="DEFAULT_NON_DIMENSION_SOURCE_PER_UNIT_VOL_UNIT">
+            1/(s.m3)
+            <!--Default_unit_of_non_dimension_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_NON_DIMENSION_SOURCE_PER_UNIT_AREA_UNIT">
+            1/(s.m2)
+            <!--Default_unit_of_non_dimension_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_VOF_SOURCE_UNIT">
+            m3/s
+            <!--Default_unit_of_vof_source-->
+        </Key>
+        <Key name="DEFAULT_VOF_SOURCE_PER_UNIT_VOL_UNIT">
+            m3/(s.m3)
+            <!--Default_unit_of_vof_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_VOF_SOURCE_PER_UNIT_AREA_UNIT">
+            m3/(s.m2)
+            <!--Default_unit_of_vof_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_MASS_UNIT">
+            kg/s
+            <!--Default_unit_of_mass_source-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_MASS_PER_UNIT_VOL_UNIT">
+            kg/(m3.s)
+            <!--Default_unit_of_mass_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_MASS_PER_UNIT_AREA_UNIT">
+            kg/(m2.s)
+            <!--Default_unit_of_mass_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_FOR_VOL_UNIT">
+            kg/(m3.s)
+            <!--Default_unit_of_source coefficient_for_volume_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_FOR_FACE_UNIT">
+            kg/(m2.s)
+            <!--Default_unit_of_source coefficient_for_face_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ENERGY">
+            W/K
+            <!--Default_unit_of_source coefficient_energy-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ENERGY_FOR_VOL_UNIT">
+            W/(m3.K)
+            <!--Default_unit_of_source coefficient_energy_for_volume_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ENERGY_FOR_FACE_UNIT">
+            W/(m2.K)
+            <!--Default_unit_of_source coefficient_energy_for_face_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ENERGY_FOR_MASS">
+            W/(KG.K)
+            <!--Default_unit_of_source coefficient_energy_for_mass-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_NON_DIMENSION_FOR_VOL_UNIT">
+            1/(s.m3)
+            <!--Default_unit_of_source coefficient_non-dimension_for_volume_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_NON_DIMENSION_FOR_FACE_UNIT">
+            1/(s.m2)
+            <!--Default_unit_of_source coefficient_non-dimension_for_face_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_VOF_FOR_VOL_UNIT">
+            m3/(s.m3)
+            <!--Default_unit_of_source_coefficient_vof_for_volume_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_VOF_FOR_FACE_UNIT">
+            m3/(s.m2)
+            <!--Default_unit_of_source_coefficient_vof_for_face_region-->
+        </Key>
+        <Key name="DEFAULT_TORQUE_UNIT">
+            N.m
+            <!--Default_unit_of_torque-->
+        </Key>
+        <Key name="DEFAULT_MOMENT_INERTIA_UNIT">
+            kg.m2
+            <!--Default_unit_of_monment_of_inertia-->
+        </Key>
+        <Key name="DEFAULT_FRICTION_FORCE_COEF_UNIT">
+            N.s/m
+            <!--Default_unit_of_friction_force_coefficient-->
+        </Key>
+        <Key name="DEFAULT_FRICTION_TORQUE_COEF_UNIT">
+            N.m.s/rad
+            <!--Default_unit_of_friction_torque_coefficient-->
+        </Key>
+        <Key name="DEFAULT_SPRING_FORCE_COEF_UNIT">
+            N/m
+            <!--Default_unit_of_spring_force_coefficient-->
+        </Key>
+        <Key name="DEFAULT_SPRING_TORQUE_COEF_UNIT">
+            N.m/rad
+            <!--Default_unit_of_spring_torque_coefficient-->
+        </Key>
+        <Key name="DEFAULT_SHEAR_RATE_UNIT">
+            1/s
+            <!--Default_unit_of_shear_rate-->
+        </Key>
+        <Key name="DEFAULT_YOUNGS_MODULUS_UNIT">
+            GPa
+            <!--Default_unit_of_young's_modulus-->
+        </Key>
+        <Key name="DEFAULT_REFERENCE_TEMPERATURE_UNIT">
+            K
+            <!--Default_unit_of_reference_temperature-->
+        </Key>
+        <Key name="DEFAULT_SURFACE_ENERGY_UNIT">
+            J/m2
+            <!--Default_unit_of_surface_energy-->
+        </Key>
+        <Key name="DEFAULT_COHESION_ENERGY_DENSITY_UNIT">
+            J/m3
+            <!--Default_unit_of_cohesion_energy_density-->
+        </Key>
+        <Key name="DEFAULT_FLOW_RESISTANCE_UNIT">
+            Pa.s/m3
+            <!--Default_unit_of_flow_resistance-->
+        </Key>
+        <Key name="DEFAULT_FLOW_CAPACITANCE_UNIT">
+            m3/Pa
+            <!--Default_unit_of_flow_capacitance-->
+        </Key>
+        <Key name="DEFAULT_NON_DIMENSION_TORQUE_PER_UNIT_RAD">
+            1/rad
+            <!--Default_unit_of_non-dimension_torque_per_rad-->
+        </Key>
+        <Key name="DEFAULT_SURFACE_TENSION_UNIT">
+            N/m
+            <!--Default_unit_of_surface_tension-->
+        </Key>
+        <Key name="DEFAULT_ELEC_CURRENT_SOURCE_UNIT">
+            A
+            <!--Default_unit_of_electrical_current_source-->
+        </Key>
+        <Key name="DEFAULT_ELEC_CURRENT_SOURCE_PER_UNIT_AREA_UNIT">
+            A/m2
+            <!--Default_unit_of_electrical_current_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_ELEC_CURRENT_SOURCE_PER_UNIT_VOLUME_UNIT">
+            A/m3
+            <!--Default_unit_of_electrical_current_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ELEC_CURRENT_FOR_FACE_UNIT">
+            A/(m2.V)
+            <!--Default_unit_of_source_coefficient_electrical_current_for_face_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ELEC_CURRENT_FOR_VOL_UNIT">
+            A/(m3.V)
+            <!--Default_unit_of_source_coefficient_electrical_current_for_volume_region-->
+        </Key>
+        <Key name="DEFAULT_ELEC_FIELD_SOURCE_UNIT">
+            C/(F/m)
+            <!--Default_unit_of_electrical_field_source-->
+        </Key>
+        <Key name="DEFAULT_ELEC_FIELD_SOURCE_PER_UNIT_AREA_UNIT">
+            C/(F/m)/m2
+            <!--Default_unit_of_electrical_field_source_per_unit_area-->
+        </Key>
+        <Key name="DEFAULT_ELEC_FIELD_SOURCE_PER_UNIT_VOLUME_UNIT">
+            C/(F/m)/m3
+            <!--Default_unit_of_electrical_field_source_per_unit_volume-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ELEC_FIELD_FOR_FACE_UNIT">
+            C/(F/m)/(m2.V)
+            <!--Default_unit_of_source_coefficient_electrical_field_for_face_region-->
+        </Key>
+        <Key name="DEFAULT_SOURCE_COEFF_ELEC_FIELD_FOR_VOL_UNIT">
+            C/(F/m)/(m3.V)
+            <!--Default_unit_of_source_coefficient_electrical_field_for_volume_region-->
+        </Key>
+        <Key name="DEFAULT_PROPORTIONALITY_COEFF_PHASE_CHANGE_UNIT">
+            1/s
+            <!--Default_unit_of_proportionality_coeff_phase_change-->
+        </Key>
+        <Key name="DEFAULT_DRHO_DP_UNIT">
+            kg/(m3.Pa)
+            <!--Default_unit_of_drho_dp-->
+        </Key>
+        <Key name="DEFAULT_DRHO_DT_UNIT">
+            kg/(m3.K)
+            <!--Default_unit_of_drho_dt-->
+        </Key>
+        <Key name="DEFAULT_ELECTRIC_CHARGE_UNIT">
+            Ah
+            <!--Default_unit_of_electric_charge-->
+        </Key>
+        <Key name="DEFAULT_ACTIVATION_ENERGY_UNIT">
+            J/mol
+            <!--Default_unit_of_activation_energy-->
+        </Key>
+        <Key name="DEFAULT_ACTIVATION_ENERGY_UNIT_REACTION">
+            J/mol
+            <!--Default_unit_of_activation_energy_reaction-->
+        </Key>
+        <Key name="DEFAULT_MOLAR_CONCENTRATION_UNIT">
+            mol/m3
+            <!--Default_unit_of_molar_concentration-->
+        </Key>
+        <Key name="DEFAULT_DIFFUSION_CONDUCTIVITY_UNIT">
+            A/m
+            <!--Default_unit_of_diffusion_conductivity-->
+        </Key>
+        <Key name="DEFAULT_STATE_OF_CHARGE_UNIT">
+            -
+            <!--Default_unit_of_state_of_charge-->
+        </Key>
+        <Key name="DEFAULT_ELEC_RESISTANCE_UNIT">
+            ohm
+            <!--Default_unit_of_electric_resistance-->
+        </Key>
+        <Key name="DEFAULT_ELEC_CAPACITY_UNIT">
+            F
+            <!--Default_unit_of_electric_capacity-->
+        </Key>
+        <Key name="DEFAULT_TIME_CONSTANT_UNIT">
+            s
+            <!--Default_unit_of_time_constant-->
+        </Key>
+        <Key name="DEFAULT_ENERGY_DENSITY_UNIT">
+            J/m3
+            <!--Default_unit_of_energy_density-->
+        </Key>
+        <Key name="DEFAULT_ENERGY_UNIT">
+            J
+            <!--Default_unit_of_energy-->
+        </Key>
+        <Key name="DEFAULT_RATE_OF_TEMPERATURE_CHANGE_UNIT">
+            K/sec
+            <!--Default_unit_of_rate_of_temperature_change-->
+        </Key>
+        <Key name="DEFAULT_TIME_FOR_THERMAL_RUNAWAY_UNIT">
+            s
+            <!--Default_unit_of_time_for_thermal_runaway-->
+        </Key>
+        <Key name="DEFAULT_ELECTRIC_RESISTANCE_S">
+            1/S
+            <!--Default_electric_resistance_s-->
+        </Key>
+        <Key name="DEFAULT_RECIPROCAL_OF_CONDUCTANCE_PER_AREA">
+            m2/S
+            <!--Default_reciprocal_of_conductance_per_area-->
+        </Key>
+        <Key name="DEFAULT_FREQUENCY">
+            Hz
+            <!--Default_unit_of_frequency-->
+        </Key>
+        <Key name="DEFAULT_ABSORP_COEFF_REAL">
+            -
+            <!--Default_unit_of_absorp_coeff_real-->
+        </Key>
+        <Key name="DEFAULT_ABSORP_COEFF_IMAG">
+            -
+            <!--Default_unit_of_absorp_coeff_imag-->
+        </Key>
+    </Section>
+    <Section name="PART">
+        <Key name="KEEP_FACE_REGION_FOR_FACET_PART_DEFINITION">
+            true
+            <!--Flag_ to_keep_face_region_for_facet_part_definition-->
+        </Key>
+    </Section>
+    <Section name="PROJ_SETTING_FILE">
+        <Key name="PROJECT_GPH_COMPRESSION_TYPE">
+            NONE
+            <!--Project_GPH_Compression_Type-->
+        </Key>
+        <Key name="PROJECT_GPH_SAVE_MODEL_MESH_FACE_RELATION">
+            true
+            <!--Project_Flag_To_Save_Model_Mesh_Face_Relation_To_GPH-->
+        </Key>
+        <Key name="PROJECT_GPH_SAVE_MESHING_DIRECTORY">
+            false
+            <!--Project_Flag_To_Save_Meshing_Directory-->
+        </Key>
+        <Key name="PROJECT_REMOVE_PRIME_MDL_BODY_FROM_PPH">
+            true
+            <!--Project_Flag_To_Remove_Prime_MDL_Body_From_PPH-->
+        </Key>
+    </Section>
+    <Section name="MESH_COMMON">
+        <Key name="USE_ROUGH_POLY_WHEN_VOXEL_MESHING">
+            false
+            <!--Flag_ to_use_rough_poly_when_voxel_meshing-->
+        </Key>
+        <Key name="NUMBER_OF_INITIAL_DIVISION_WHEN_VOXEL_MESHING">
+            15000000
+            <!--Number_of_initial_division_when_voxel_meshing-->
+        </Key>
+        <Key name="KEEP_ASSEMBLY_WHEN_MESH_IMPORT">
+            false
+            <!--Flag_ to_keep_assembly_when_mesh_import-->
+        </Key>
+    </Section>
+    <Section name="MSC_COSIM">
+        <Key name="COSIM_COMMAND_TYPE">
+            conventional
+            <!--COSIM_command_specification-->
+        </Key>
+    </Section>
+    <Section name="TOLERANCE">
+        <Key name="OVERLAP_TOLERANCE">
+            9.9999999999999995e-07
+            <!--Overlap tolerance-->
+        </Key>
+        <Key name="SEWING_TOLERANCE">
+            9.9999999999999995e-07
+            <!--Sewing tolerance-->
+        </Key>
+        <Key name="INVALID_TOLERANCE">
+            9.9999999999999995e-07
+            <!--Invalid tolerance-->
+        </Key>
+        <Key name="CONTACT_TOLERANCE">
+            9.9999999999999995e-07
+            <!--Contact tolerance-->
+        </Key>
+        <Key name="MATCHING_TOLERANCE_FACTOR">
+            0.050000000000000003
+            <!--Matching tolerance factor-->
+        </Key>
+        <Key name="SHORT_DISTANCE_PARAM">
+            1e-08
+            <!--SHORT_DISTANCE_PARAMETER-->
+        </Key>
+    </Section>
+    <Section name="TINYFACE">
+        <Key name="RELATIVE_FLAG">
+            true
+            <!--Relative flag-->
+        </Key>
+        <Key name="RELATIVE_DENOMINATOR">
+            1000
+            <!--Relative denominator-->
+        </Key>
+        <Key name="ABSOLUTE_SIZE">
+            9.9999999999999995e-07
+            <!--Absolute size-->
+        </Key>
+    </Section>
+    <Section name="RIDGE">
+        <Key name="ALL_SOLID_BOUNDARY">
+            false
+            <!--Flag for all solid boundary-->
+        </Key>
+        <Key name="ANGLE">
+            45
+            <!--Angle to regard as ridges-->
+        </Key>
+        <Key name="PROJECT_SOLIDS">
+            true
+            <!--Project all edges of solids-->
+        </Key>
+        <Key name="PROJECT_SHEETS">
+            true
+            <!--Project all edges of sheets-->
+        </Key>
+        <Key name="SUPPRESS_TINY_FACE">
+            false
+            <!--Suppress tiny face-->
+        </Key>
+    </Section>
+    <Section name="FACET">
+        <Key name="USE_SIMPLE_SETTING">
+            true
+            <!--Use simple setting-->
+        </Key>
+        <Key name="SIMPLE_CHORD_TOLERANCE">
+            1
+            <!--Chord tolerance of the simple setting-->
+        </Key>
+        <Key name="SIMPLE_MAX_ANGLE">
+            5
+            <!--Max angle of the simple setting-->
+        </Key>
+        <Key name="SIMPLE_MAX_WIDTH">
+            5
+            <!--Max width of the simple setting-->
+        </Key>
+        <Key name="USE_ABSOLUTE_VALUE">
+            false
+            <!--Use absolute value-->
+        </Key>
+        <Key name="SIMPLE_CHORD_TOLERANCE_ABS">
+            0
+            <!--Absolute chord tolerance-->
+        </Key>
+        <Key name="SIMPLE_MAX_WIDTH_ABS">
+            0
+            <!--Absolute max width-->
+        </Key>
+        <Key name="USE_DETAIL_MAX_WIDTH">
+            true
+            <!--Use max width of the detail setting-->
+        </Key>
+        <Key name="USE_DETAIL_CHORD_TOLERANCE">
+            true
+            <!--Use chord tolerance of the detail setting-->
+        </Key>
+        <Key name="USE_DETAIL_CHORD_ANGLE">
+            true
+            <!--Use chord angle of the detail setting-->
+        </Key>
+        <Key name="USE_DETAIL_SURF_TOLERANCE">
+            true
+            <!--Use surface tolerance of the detail setting-->
+        </Key>
+        <Key name="USE_DETAIL_SURF_ANGLE">
+            true
+            <!--Use surface angle of the detail setting-->
+        </Key>
+        <Key name="DETAIL_MAX_WIDTH">
+            0
+            <!--Max width of the detail setting-->
+        </Key>
+        <Key name="DETAIL_CHORD_TOLERANCE">
+            0
+            <!--Chord tolerance of the detail setting-->
+        </Key>
+        <Key name="DETAIL_CHORD_ANGLE">
+            10
+            <!--Chord angle of the detail setting-->
+        </Key>
+        <Key name="DETAIL_SURF_TOLERANCE">
+            0
+            <!--Surface tolerance of the detail setting-->
+        </Key>
+        <Key name="DETAIL_SURF_ANGLE">
+            10
+            <!--Surface angle of the detail setting-->
+        </Key>
+        <Key name="SHIFT_TRIANGLE_CENTER">
+            true
+            <!--Shift central vertex of triangle-->
+        </Key>
+        <Key name="MDL_METHOD">
+            1
+            <!--Method for creating MDL-->
+        </Key>
+        <Key name="USE_FACETTER">
+            true
+            <!--Use facetter in MDL Wizard-->
+        </Key>
+        <Key name="SOLID_BASE_LENGTH_FACTOR">
+            0.050000000000000003
+            <!--Length factor of solid base faceter-->
+        </Key>
+        <Key name="SOLID_BASE_MINIMUM_ANGLE">
+            10
+            <!--Minimum angle of solid base faceter-->
+        </Key>
+        <Key name="SOLID_BASE_TINY_FACE_WIDTH_RATIO">
+            0.050000000000000003
+            <!--Width ratio of automatic tiny face removal of solid base faceter-->
+        </Key>
+        <Key name="SOLID_BASE_LENGTH_FACTOR_FOR_OCTREE">
+            0.25
+            <!--Length factor of solid base faceter for octree-->
+        </Key>
+        <Key name="SOLID_BASE_MINIMUM_ANGLE_FOR_OCTREE">
+            10
+            <!--Minimum angle of solid base faceter for octree-->
+        </Key>
+        <Key name="USE_INTERSECTION_DETECTION_DEPTH_AS_CLOSED_VOLUME_DETECTION_DEPTH">
+            0
+            <!--Use intersection detection depth as closed volume detection depth-->
+        </Key>
+        <Key name="INTERSECTION_DETECTION_DEPTH">
+            12
+            <!--Intersection detection depth-->
+        </Key>
+        <Key name="FACET_ACCURACY_SPECIFY_TYPE">
+            0
+            <!--Facet accuracy specification type-->
+        </Key>
+        <Key name="OCT_LENGTH_PARAM_FLAG">
+            true
+            <!--Flag to use oct length param-->
+        </Key>
+        <Key name="OCT_LENGTH_PARAM_TYPE">
+            5
+            <!--Oct length param type-->
+        </Key>
+        <Key name="OCT_LENGTH_PARAM_ITR">
+            5
+            <!--Oct length param itr-->
+        </Key>
+        <Key name="AFFACETER_RIGID_INCLUSION_TEST">
+            true
+            <!--Flag to rigid inclusion test in AFFaceter-->
+        </Key>
+        <Key name="AFFACETER_CONSIDER_SPATIAL_RESOLUTION">
+            true
+            <!--Flag to consider spatial resolution of edge in AFFaceter-->
+        </Key>
+        <Key name="AFFACETER_BLUNT_SURF_CURVATURE">
+            true
+            <!--Flag to blunt surface curvature in AFFaceter-->
+        </Key>
+    </Section>
+    <Section name="OCT_MESH">
+        <Key name="FACET_LENGTH_FACTOR">
+            1
+            <!--Facet length factor-->
+        </Key>
+        <Key name="FACET_ANGLE">
+            5
+            <!--Facet angle-->
+        </Key>
+        <Key name="FACET_MAX_WIDTH_FACTOR">
+            5
+            <!--Facet max width factor-->
+        </Key>
+        <Key name="FACET_SPECIFY_EACH_REGION">
+            false
+            <!--Flag for specifying facet accuracy for each region-->
+        </Key>
+        <Key name="COMPLETE_PARALLEL">
+            false
+            <!--Flag for complete parallel-->
+        </Key>
+        <Key name="VOXEL_OCT_REFINE_TYPE">
+            3
+            <!--Refine type of octant-->
+        </Key>
+    </Section>
+    <Section name="MESH">
+        <Key name="MESHER">
+            1
+            <!--Mesher-->
+        </Key>
+        <Key name="SURF_MESHER">
+            0
+            <!--Surface mesher-->
+        </Key>
+    </Section>
+</Data>
